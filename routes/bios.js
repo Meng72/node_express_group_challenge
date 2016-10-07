@@ -9,13 +9,13 @@ var levy ={
 
 var leya ={
   name: 'Leya',
-  bio: 'Student at Prime Digital Academy. You guys need to put something here. :-)',
+  bio: 'Rhobot at Prime Digital Academy trying to take over the world. Never give up! ',
   url: 'assets/images/Leya.jpg'
 };
 
 var matt = {
   name: 'Matt',
-  bio: 'Stud at Prime Digital Academy.You guys need to put something here. :-)',
+  bio: 'Student at Prime Digital Academy. Stud outside of Prime Digital Academy :-)',
   url:'assets/images/Matt.jpg'
 };
 
