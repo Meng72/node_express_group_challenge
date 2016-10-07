@@ -1,0 +1,69 @@
+*:focus {
+  outline: none;
+}
+
+
+img {
+  width:200px;
+  height:200px;
+}
+
+.memberContainer {
+
+  width:300px;
+  display:inline-block;
+  margin: 10px;
+  padding:5px;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+body{
+  width:80%;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+h1 {
+  color:red;
+  display:flex;
+  height: 200px;
+  background-color: black;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.info{
+  text-align: center;
+}
+
+.likeButton {
+  background-color: red;
+  display: inline-block;
+  height: 33px;
+  margin: 0 10px;
+  position: relative;
+  top: 0;
+  transform: rotate(-45deg);
+  width: 28px;
+}
+
+.likeButton:before,
+.likeButton:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.likeButton:before {
+  top: -15px;
+  left: 0;
+}
+
+.likeButton:after {
+  left: 15px;
+  top: 0;
+}
